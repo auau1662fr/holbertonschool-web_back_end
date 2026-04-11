@@ -8,7 +8,6 @@ async def task_wait_n(n: int, max_delay: int):
     delays = []
 
     for task in asyncio.as_completed(tasks):
-        result = await task
-        delays.append(result)
+        delays.append(await task)
 
     return delays
