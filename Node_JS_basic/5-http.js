@@ -1,5 +1,4 @@
-5-http.js
-javascriptconst http = require('http');
+const http = require('http');
 const fs = require('fs');
 
 function countStudents(path) {

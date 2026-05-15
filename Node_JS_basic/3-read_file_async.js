@@ -1,5 +1,4 @@
-3-read_file_async.js
-javascriptconst fs = require('fs');
+const fs = require('fs');
 
 function countStudents(path) {
   return new Promise((resolve, reject) => {
